@@ -2,6 +2,7 @@
 
 // Import the http module
 const http = require('http');
+require('dotenv').config();
 
 // Define the hostname and port
 const hostname = '127.0.0.1';
